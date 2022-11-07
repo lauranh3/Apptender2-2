@@ -83,4 +83,13 @@
             android:id="@+id/action_tomatesFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/home2Fragment"
+        android:name="com.example.apptender2.view.ui.fragments.Home2Fragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" >
+        <action
+            android:id="@+id/action_home2Fragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>

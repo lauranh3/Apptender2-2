@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Apptender2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorsecundario</item>
+        <item name="colorPrimaryDark">@color/coloracento</item>
+        <item name="colorAccent">@color/colorfondo</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

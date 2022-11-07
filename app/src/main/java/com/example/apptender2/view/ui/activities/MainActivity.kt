@@ -1,4 +1,5 @@
 package com.example.apptender2.view.ui.activities
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.animationView.setAnimation(R.raw.fruta
-        )
+        binding.animationView.setAnimation(R.raw.fruta)
         binding.animationView.playAnimation()
 
         handler = Handler(Looper.myLooper()!!)
@@ -31,5 +31,4 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
 }

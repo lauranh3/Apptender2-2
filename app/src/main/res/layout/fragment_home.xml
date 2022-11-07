@@ -32,7 +32,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
 
         <GridLayout
             android:layout_width="match_parent"
@@ -345,7 +345,6 @@
                         android:layout_height="70dp"
                         android:src="@drawable/mango">
                     </ImageView>
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -354,7 +353,6 @@
                         android:textStyle="bold"
                         android:textAlignment="center"
                         android:text="$2.500">
-
                     </TextView>
                     <ImageView
                         android:layout_width="30dp"
@@ -363,13 +361,8 @@
                         android:src="@drawable/carro">
                     </ImageView>
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
-
-
-
-
-        </GridLayout>
-    </ScrollView>
-
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
 </LinearLayout>

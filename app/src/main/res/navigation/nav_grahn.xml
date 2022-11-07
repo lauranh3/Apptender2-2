@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grahn"
+    app:startDestination="@id/brocoliFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apptender2.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bananosFragment"
+            app:destination="@id/bananosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_brocoliFragment"
+            app:destination="@id/brocoliFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mangoFragment"
+            app:destination="@id/mangoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fresasFragment"
+            app:destination="@id/fresasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_papasFragment"
+            app:destination="@id/papasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tomatesFragment"
+            app:destination="@id/tomatesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bananosFragment"
+        android:name="com.example.apptender2.view.ui.fragments.BananosFragment"
+        android:label="fragment_bananos"
+        tools:layout="@layout/fragment_bananos" >
+        <action
+            android:id="@+id/action_bananosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/brocoliFragment"
+        android:name="com.example.apptender2.view.ui.fragments.BrocoliFragment"
+        android:label="fragment_brocoli"
+        tools:layout="@layout/fragment_brocoli" >
+        <action
+            android:id="@+id/action_brocoliFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/papasFragment"
+        android:name="com.example.apptender2.view.ui.fragments.PapasFragment"
+        android:label="fragment_papas"
+        tools:layout="@layout/fragment_papas" >
+        <action
+            android:id="@+id/action_papasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mangoFragment"
+        android:name="com.example.apptender2.view.ui.fragments.MangoFragment"
+        android:label="fragment_mango"
+        tools:layout="@layout/fragment_mango" >
+        <action
+            android:id="@+id/action_mangoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fresasFragment"
+        android:name="com.example.apptender2.view.ui.fragments.FresasFragment"
+        android:label="fragment_fresas"
+        tools:layout="@layout/fragment_fresas" >
+        <action
+            android:id="@+id/action_fresasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tomatesFragment"
+        android:name="com.example.apptender2.view.ui.fragments.TomatesFragment"
+        android:label="fragment_tomates"
+        tools:layout="@layout/fragment_tomates" >
+        <action
+            android:id="@+id/action_tomatesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

@@ -15,7 +15,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="110dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="20dp"
@@ -147,8 +147,6 @@
                             android:id="@+id/tienda">
                         </ImageView>
                     </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
@@ -206,11 +204,11 @@
                             android:textAlignment="center"
                             android:text="Mis datos">
                         </TextView>
+
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/datos">
-                        </ImageView>
+                            android:src="@drawable/datos"></ImageView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>

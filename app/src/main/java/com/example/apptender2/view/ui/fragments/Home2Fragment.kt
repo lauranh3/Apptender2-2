@@ -19,9 +19,10 @@ class Home2Fragment : Fragment() {
         }
     override fun onViewCreated (view: View,savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val tienda=view.findViewById<ImageView>(R.id.tienda)
-        tienda.setOnClickListener {
+        val cardTienda= view.findViewById<ImageView>(R.id.tienda)
+        cardTienda.setOnClickListener {
             findNavController().navigate(R.id.action_home2Fragment_to_homeFragment)
+
         }
     }
 }

@@ -71,6 +71,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
                 android:text=" Detalle: Se caracteriza el brócoli por sus abundantes cabezas florales carnosas comestibles de color verde, puestas en forma de árbol, sobre ramas que nacen de un grueso tallo. El nombre común es el diminutivo de la palabra italiana brocco que quiere decir brote." />
         </LinearLayout>
     </LinearLayout>

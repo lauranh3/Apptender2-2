@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="100dp"
-                android:text="Mango  1 Kg"
+                android:text="Mango x 1 Kg"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:text="$2.500"
+                android:text="$4.500"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">

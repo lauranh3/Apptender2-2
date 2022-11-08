@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.apptender2.R
 
 class Home2Fragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -19,10 +20,13 @@ class Home2Fragment : Fragment() {
         }
     override fun onViewCreated (view: View,savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val cardTienda= view.findViewById<ImageView>(R.id.tienda)
-        cardTienda.setOnClickListener {
+
+        val cardLib= view.findViewById<ImageView>(R.id.cardTienda)
+        cardLib.setOnClickListener {
             findNavController().navigate(R.id.action_home2Fragment_to_homeFragment)
 
         }
+
+
     }
 }

@@ -22,8 +22,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:text="Banano Kg"
+                android:layout_marginTop="50dp"
+                android:text=" Brocoli x Unidad"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -35,25 +35,43 @@
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:src="@drawable/brocoli">
-
             </ImageView>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="10dp"
                 android:text="$1.500"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">
-
             </TextView>
+
+
+            <Button
+                android:id="@+id/BAgregar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Agregar"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint ="@color/coloracento"
+                android:fontFamily="@font/opensanslight"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.686"
+                android:background="@drawable/stylo_borde_bottom"/>
+
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Se caracteriza el brócoli por sus abundantes cabezas florales carnosas comestibles de color verde, puestas en forma de árbol, sobre ramas que nacen de un grueso tallo. El nombre común es el diminutivo de la palabra italiana brocco que quiere decir brote." />
+                android:layout_marginTop="20dp"
+                android:text=" Detalle: Se caracteriza el brócoli por sus abundantes cabezas florales carnosas comestibles de color verde, puestas en forma de árbol, sobre ramas que nacen de un grueso tallo. El nombre común es el diminutivo de la palabra italiana brocco que quiere decir brote." />
         </LinearLayout>
     </LinearLayout>
 

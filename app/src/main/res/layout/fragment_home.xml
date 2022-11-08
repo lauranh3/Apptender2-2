@@ -120,7 +120,7 @@
                         android:textSize="20dp"
                         android:textStyle="bold"
                         android:textAlignment="center"
-                        android:text="Fresas Kg">
+                        android:text="Fresas 250gr">
 
                     </TextView>
 
@@ -139,7 +139,7 @@
                         android:textSize="20dp"
                         android:textStyle="bold"
                         android:textAlignment="center"
-                        android:text="$3.000">
+                        android:text="$3.900">
 
                     </TextView>
                     <ImageView
@@ -281,7 +281,7 @@
                         android:textSize="20dp"
                         android:textStyle="bold"
                         android:textAlignment="center"
-                        android:text="Brocoli Kg">
+                        android:text="Brocoli x unidad">
 
                     </TextView>
 

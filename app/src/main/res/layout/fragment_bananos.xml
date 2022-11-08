@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".view.ui.fragments.BananosFragment">
 
     <LinearLayout
@@ -21,8 +22,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:text="Banano Kg"
+                android:layout_marginTop="100dp"
+                android:text="Banano x bolsa 1 Kg"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -45,14 +46,36 @@
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold">
-
             </TextView>
+
+
+            <Button
+                android:id="@+id/BAgregar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Agregar"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:backgroundTint ="@color/coloracento"
+                android:fontFamily="@font/opensanslight"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                app:layout_constraintVertical_bias="0.686"
+                android:background="@drawable/stylo_borde_bottom"/>
+
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="El plátano es una fruta tropical procedente de la planta herbácea que recibe el mismo nombre o banano, perteneciente a la familia de las musáceas. Tiene forma alargada o ligeramente curvada, de 100-200 g de peso. La piel es gruesa, de color amarillo y fácil de pelar, y la pulpa es blanca o amarillenta y carnosa." />
+                android:layout_marginTop="20dp"
+                android:text="Detalle: El banano es una fruta tropical procedente de la planta herbácea que recibe el mismo nombre o banano, perteneciente a la familia de las musáceas. Tiene forma alargada o ligeramente curvada, de 100-200 g de peso. La piel es gruesa, de color amarillo y fácil de pelar, y la pulpa es blanca o amarillenta y carnosa."
+                android:textSize="15dp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
@@ -68,7 +91,6 @@
             android:layout_width="400dp"
             android:layout_height="400dp"
             android:src="@drawable/logo">
-
         </ImageView>
 
     </RelativeLayout>

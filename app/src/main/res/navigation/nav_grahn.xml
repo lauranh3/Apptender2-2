@@ -6,41 +6,6 @@
     app:startDestination="@id/home2Fragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.apptender2.view.ui.fragments.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/bananosFragment"
-        android:name="com.example.apptender2.view.ui.fragments.BananosFragment"
-        android:label="fragment_bananos"
-        tools:layout="@layout/fragment_bananos" />
-    <fragment
-        android:id="@+id/brocoliFragment"
-        android:name="com.example.apptender2.view.ui.fragments.BrocoliFragment"
-        android:label="fragment_brocoli"
-        tools:layout="@layout/fragment_brocoli" />
-    <fragment
-        android:id="@+id/papasFragment"
-        android:name="com.example.apptender2.view.ui.fragments.PapasFragment"
-        android:label="fragment_papas"
-        tools:layout="@layout/fragment_papas" />
-    <fragment
-        android:id="@+id/mangoFragment"
-        android:name="com.example.apptender2.view.ui.fragments.MangoFragment"
-        android:label="fragment_mango"
-        tools:layout="@layout/fragment_mango" />
-    <fragment
-        android:id="@+id/fresasFragment"
-        android:name="com.example.apptender2.view.ui.fragments.FresasFragment"
-        android:label="fragment_fresas"
-        tools:layout="@layout/fragment_fresas" />
-    <fragment
-        android:id="@+id/tomatesFragment"
-        android:name="com.example.apptender2.view.ui.fragments.TomatesFragment"
-        android:label="fragment_tomates"
-        tools:layout="@layout/fragment_tomates" />
-    <fragment
         android:id="@+id/home2Fragment"
         android:name="com.example.apptender2.view.ui.fragments.Home2Fragment"
         android:label="fragment_home2"
@@ -49,4 +14,18 @@
             android:id="@+id/action_home2Fragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apptender2.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bananosFragment"
+            app:destination="@id/bananosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bananosFragment"
+        android:name="com.example.apptender2.view.ui.fragments.BananosFragment"
+        android:label="fragment_bananos"
+        tools:layout="@layout/fragment_bananos" />
 </navigation>

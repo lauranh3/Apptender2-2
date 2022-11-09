@@ -69,11 +69,10 @@
                     </TextView>
 
                     <ImageView
-
                         android:layout_width="70dp"
                         android:layout_height="70dp"
+                        android:id="@+id/Banano"
                         android:src="@drawable/banano">
-
                     </ImageView>
 
                     <TextView
@@ -127,6 +126,7 @@
                     <ImageView
 
                         android:layout_width="70dp"
+                        android:id="@+id/Fresas"
                         android:layout_height="70dp"
                         android:src="@drawable/fresas">
 
@@ -183,6 +183,7 @@
 
                         android:layout_width="70dp"
                         android:layout_height="70dp"
+                        android:id="@+id/Tomates"
                         android:src="@drawable/tomate1">
 
                     </ImageView>
@@ -237,6 +238,7 @@
 
                         android:layout_width="70dp"
                         android:layout_height="70dp"
+                        android:id="@+id/papas"
                         android:src="@drawable/papas">
                     </ImageView>
 
@@ -289,6 +291,7 @@
 
                         android:layout_width="70dp"
                         android:layout_height="70dp"
+                        android:id="@+id/Brocoli"
                         android:src="@drawable/brocoli">
 
                     </ImageView>
@@ -343,6 +346,7 @@
 
                         android:layout_width="70dp"
                         android:layout_height="70dp"
+                        android:id="@+id/Mango"
                         android:src="@drawable/mango">
                     </ImageView>
                     <TextView

@@ -13,6 +13,21 @@
         <action
             android:id="@+id/action_home2Fragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_misdatosFragment"
+            app:destination="@id/misdatosFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_comentariosFragment"
+            app:destination="@id/comentariosFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_listaTiendaFragment"
+            app:destination="@id/listaTiendaFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -23,23 +38,8 @@
             android:id="@+id/action_homeFragment_to_bananosFragment"
             app:destination="@id/bananosFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_brocoliFragment"
-            app:destination="@id/brocoliFragment" />
-        <action
             android:id="@+id/action_homeFragment_to_fresasFragment"
             app:destination="@id/fresasFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_mangoFragment"
-            app:destination="@id/mangoFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_papasFragment"
-            app:destination="@id/papasFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_tomatesFragment"
-            app:destination="@id/tomatesFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_home2Fragment"
-            app:destination="@id/home2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/bananosFragment"
@@ -75,4 +75,29 @@
         android:name="com.example.apptender2.view.ui.fragments.TomatesFragment"
         android:label="fragment_tomates"
         tools:layout="@layout/fragment_tomates" />
+    <fragment
+        android:id="@+id/misdatosFragment"
+        android:name="com.example.apptender2.view.ui.fragments.misdatosFragment"
+        android:label="fragment_misdatos"
+        tools:layout="@layout/fragment_misdatos" />
+    <fragment
+        android:id="@+id/comentariosFragment"
+        android:name="com.example.apptender2.view.ui.fragments.comentariosFragment"
+        android:label="fragment_comentarios"
+        tools:layout="@layout/fragment_comentarios" />
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="com.example.apptender2.configuracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/ayudaFragment"
+        android:name="com.example.apptender2.view.ui.fragments.ayudaFragment"
+        android:label="fragment_ayuda"
+        tools:layout="@layout/fragment_ayuda" />
+    <fragment
+        android:id="@+id/listaTiendaFragment"
+        android:name="com.example.apptender2.view.ui.fragments.ListaTiendaFragment"
+        android:label="fragment_tienda"
+        tools:layout="@layout/fragment_tienda" />
 </navigation>

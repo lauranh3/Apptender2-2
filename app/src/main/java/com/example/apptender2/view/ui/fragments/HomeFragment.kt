@@ -26,12 +26,11 @@ class HomeFragment : Fragment() {
         val cardBanana = view.findViewById<ImageView>(R.id.Banano)
         cardBanana.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_bananosFragment)
+        }
 
-            val cardFresa = view.findViewById<ImageView>(R.id.Fresas)
-            cardFresa.setOnClickListener {
-                findNavController().navigate(R.id.action_homeFragment_to_fresasFragment)
-            }
-
+        val cardFresa = view.findViewById<ImageView>(R.id.Fresas)
+        cardFresa.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_fresasFragment)
 
         }
 

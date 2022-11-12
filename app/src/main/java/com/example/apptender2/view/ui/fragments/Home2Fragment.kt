@@ -17,19 +17,37 @@ class Home2Fragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_home2, container, false)
         return view
-        }
-    override fun onViewCreated (view: View,savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        val cardLib= view.findViewById<ImageView>(R.id.cardTienda)
-        cardLib.setOnClickListener {
-            findNavController().navigate(R.id.action_home2Fragment_to_homeFragment)
-
-        }
-
-
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        val cardLib = view.findViewById<ImageView>(R.id.cardTienda)
+        cardLib.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_homeFragment)
+        }
+        val cardDatos = view.findViewById<ImageView>(R.id.Mdatos)
+        cardDatos.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_misdatosFragment)
+        }
+        val cardPedidos = view.findViewById<ImageView>(R.id.CTienda)
+        cardPedidos.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_listaTiendaFragment)
 
+        }
+        val cardConfiguracion = view.findViewById<ImageView>(R.id.Mconfiguracion)
+        cardConfiguracion.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_configuracionFragment)
+
+        }
+        val cardComentarios = view.findViewById<ImageView>(R.id.Mcomentarios)
+        cardComentarios.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_comentariosFragment)
+        }
+
+        val cardAyuda = view.findViewById<ImageView>(R.id.Mayuda)
+        cardAyuda.setOnClickListener {
+            findNavController().navigate(R.id.action_home2Fragment_to_ayudaFragment)
+        }
+    }
 }

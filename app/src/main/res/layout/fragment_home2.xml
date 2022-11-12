@@ -41,13 +41,12 @@
                 android:rowCount="3"
                 android:alignmentMode="alignMargins"
                 android:columnOrderPreserved="false">
-
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
-                    app:cardCornerRadius="5dp"
+                    app:cardCornerRadius="2dp"
                     app:cardElevation="5dp"
                     android:layout_margin="12dp">
 
@@ -64,23 +63,18 @@
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:text="Ajustes">
-
+                            android:text="Mis datos">
                         </TextView>
 
                         <ImageView
-
+                            android:id="@+id/Mdatos"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/ajustes">
-
+                            android:src="@drawable/datos">
                         </ImageView>
-
-
                     </LinearLayout>
-
-
                 </androidx.cardview.widget.CardView>
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
@@ -110,12 +104,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:src="@drawable/carro"
-                            android:id="@+id/Mis_pedidos">
+                            android:id="@+id/CTienda">
                         </ImageView>
                     </LinearLayout>
 
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -148,6 +143,46 @@
                         </ImageView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Configuracion">
+                        </TextView>
+
+                        <ImageView
+
+                            android:layout_width="100dp"
+                            android:id="@+id/Mconfiguracion"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ajustes">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -175,11 +210,13 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
+                            android:id="@+id/Mcomentarios"
                             android:src="@drawable/comentarios">
                         </ImageView>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -202,16 +239,18 @@
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:text="Mis datos">
+                            android:text="Ayuda">
                         </TextView>
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:src="@drawable/datos">
+                            android:id="@+id/Mayuda"
+                            android:src="@drawable/ayuda">
                         </ImageView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
             </GridLayout>
         </ScrollView>
     </LinearLayout>

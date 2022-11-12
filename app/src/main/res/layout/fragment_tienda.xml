@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".view.ui.fragments.ListaTiendaFragment">
 
     <RelativeLayout
@@ -18,7 +19,6 @@
             android:layout_height="400dp"
             android:id="@+id/CTienda"
             android:src="@drawable/logo">
-
         </ImageView>
 
     </RelativeLayout>
@@ -30,4 +30,19 @@
         android:id="@+id/recyclerTienda">
 
     </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:background="@color/colorsecundario"
+        android:backgroundTint="@color/black"
+        app:itemIconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation_bar"
+        tools:ignore="MissingConstrains"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </FrameLayout>

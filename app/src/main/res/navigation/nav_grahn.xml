@@ -23,11 +23,11 @@
             android:id="@+id/action_home2Fragment_to_comentariosFragment"
             app:destination="@id/comentariosFragment" />
         <action
-            android:id="@+id/action_home2Fragment_to_ayudaFragment"
-            app:destination="@id/ayudaFragment" />
-        <action
             android:id="@+id/action_home2Fragment_to_listaTiendaFragment"
             app:destination="@id/listaTiendaFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_mapasFragment"
+            app:destination="@id/mapasFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -91,13 +91,24 @@
         android:label="fragment_configuracion"
         tools:layout="@layout/fragment_configuracion" />
     <fragment
-        android:id="@+id/ayudaFragment"
-        android:name="com.example.apptender2.view.ui.fragments.ayudaFragment"
-        android:label="fragment_ayuda"
-        tools:layout="@layout/fragment_ayuda" />
-    <fragment
         android:id="@+id/listaTiendaFragment"
         android:name="com.example.apptender2.view.ui.fragments.ListaTiendaFragment"
         android:label="fragment_tienda"
-        tools:layout="@layout/fragment_tienda" />
+        tools:layout="@layout/fragment_tienda" >
+        <action
+            android:id="@+id/action_listaTiendaFragment_to_home2Fragment"
+            app:destination="@id/home2Fragment" />
+        <action
+            android:id="@+id/action_listaTiendaFragment_to_misdatosFragment"
+            app:destination="@id/misdatosFragment" />
+        <action
+            android:id="@+id/action_listaTiendaFragment_to_mapasFragment"
+            app:destination="@id/mapasFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/mapasFragment"
+        android:name="com.example.apptender2.view.ui.fragments.mapasFragment"
+        android:label="fragment_mapas"
+        tools:layout="@layout/fragment_mapas" />
 </navigation>

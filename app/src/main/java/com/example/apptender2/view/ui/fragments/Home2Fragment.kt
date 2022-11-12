@@ -47,7 +47,7 @@ class Home2Fragment : Fragment() {
 
         val cardAyuda = view.findViewById<ImageView>(R.id.Mayuda)
         cardAyuda.setOnClickListener {
-            findNavController().navigate(R.id.action_home2Fragment_to_ayudaFragment)
+            findNavController().navigate(R.id.action_home2Fragment_to_mapasFragment)
         }
     }
 }

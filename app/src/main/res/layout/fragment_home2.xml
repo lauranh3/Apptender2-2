@@ -239,14 +239,14 @@
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:text="Ayuda">
+                            android:text="Mapa">
                         </TextView>
 
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:id="@+id/Mayuda"
-                            android:src="@drawable/ayuda">
+                            android:src="@drawable/mapas">
                         </ImageView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

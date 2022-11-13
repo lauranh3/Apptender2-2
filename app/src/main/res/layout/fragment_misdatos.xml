@@ -36,5 +36,39 @@
 
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fotoperfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/cam">
+    </ImageView>
+    <Button
+        android:id="@+id/btmcamara"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/colorfondo"
+        android:text="Cámara"
+        android:textSize="10dp"
+
+        android:textStyle="bold">
+    </Button>
+    <Button
+        android:id="@+id/btmgaleria"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="550dp"
+        android:textSize="10dp"
+        android:backgroundTint="@color/colorfondo"
+        android:text="Galeria"
+        android:textStyle="bold">
+    </Button>
+
 </FrameLayout>
 

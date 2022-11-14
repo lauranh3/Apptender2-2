@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51844988335",
+    "project_id": "apptender2",
+    "storage_bucket": "apptender2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51844988335:android:3b888daa5af92981b9835a",
+        "android_client_info": {
+          "package_name": "com.example.apptender2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51844988335-vm3rdv1c6t2bu65tlput93njg6uuavrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW37-yORubHYWzmk8g3eodYUhjjWhpeFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51844988335-vm3rdv1c6t2bu65tlput93njg6uuavrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

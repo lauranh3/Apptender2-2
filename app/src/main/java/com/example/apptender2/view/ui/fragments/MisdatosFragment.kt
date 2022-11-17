@@ -10,11 +10,14 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.apptender2.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
 
 class misdatosFragment : Fragment() {
 
-
+    private lateinit var firebaseAuth: FirebaseAuth
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -52,5 +55,22 @@ class misdatosFragment : Fragment() {
 
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val btm = view.findViewById<BottomNavigationView>(R.id.buttonnavigation)
+        btm.setOnNavigationItemReselectedListener {
+            when (it.itemId) {
+                R.id.Home -> findNavController().navigate(R.id.action_misdatosFragment_to_home2Fragment)
+                R.id.Perf -> findNavController().navigate(R.id.action_misdatosFragment_self)
+                R.id.Map -> findNavController().navigate(R.id.action_misdatosFragment_to_mapasFragment)
+                R.id.homeFragment -> findNavController().navigate(R.id.action_misdatosFragment_to_homeFragment)
+                R.id.cerrar -> {
+                    firebaseAuth.signOut()
+                    findNavController().navigate(R.id.action_homeFragment_to_loginActivity)
+                    true
 
-}
+                }
+            }
+        }
+    }
+    }

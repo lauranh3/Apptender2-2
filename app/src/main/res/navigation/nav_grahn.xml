@@ -46,6 +46,19 @@
         <action
             android:id="@+id/action_homeFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_home2Fragment"
+            app:destination="@id/home2Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_misdatosFragment"
+            app:destination="@id/misdatosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mapasFragment"
+            app:destination="@id/mapasFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_self"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/bananosFragment"
@@ -89,6 +102,15 @@
         <action
             android:id="@+id/action_misdatosFragment_to_home2Fragment"
             app:destination="@id/home2Fragment" />
+        <action
+            android:id="@+id/action_misdatosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_misdatosFragment_to_mapasFragment"
+            app:destination="@id/mapasFragment" />
+        <action
+            android:id="@+id/action_misdatosFragment_self"
+            app:destination="@id/misdatosFragment" />
     </fragment>
     <fragment
         android:id="@+id/comentariosFragment"
@@ -127,7 +149,20 @@
         android:id="@+id/mapasFragment"
         android:name="com.example.apptender2.view.ui.fragments.mapasFragment"
         android:label="fragment_mapas"
-        tools:layout="@layout/fragment_mapas" />
+        tools:layout="@layout/fragment_mapas" >
+        <action
+            android:id="@+id/action_mapasFragment_to_misdatosFragment"
+            app:destination="@id/misdatosFragment" />
+        <action
+            android:id="@+id/action_mapasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_mapasFragment_to_home2Fragment"
+            app:destination="@id/home2Fragment" />
+        <action
+            android:id="@+id/action_mapasFragment_self"
+            app:destination="@id/mapasFragment" />
+    </fragment>
     <activity
         android:id="@+id/loginActivity"
         android:name="com.example.apptender2.view.ui.activities.LoginActivity"

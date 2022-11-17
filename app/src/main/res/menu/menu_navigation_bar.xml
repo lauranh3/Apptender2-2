@@ -16,4 +16,10 @@
         android:icon="@drawable/mapa">
     </item>
 
+    <item
+        android:id="@+id/cerrar"
+        android:title="Cerrar"
+        android:icon="@drawable/cerrar">
+    </item>
+
 </menu>

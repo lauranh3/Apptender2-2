@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.662" />
 
     <EditText
-        android:id="@+id/editTextNombre2"
+        android:id="@+id/correorecuperar"
         android:layout_width="262dp"
         android:layout_height="62dp"
         android:background="@drawable/stylo_borde_editext"

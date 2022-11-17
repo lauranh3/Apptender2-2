@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_home2Fragment_to_mapasFragment"
             app:destination="@id/mapasFragment" />
+        <action
+            android:id="@+id/action_home2Fragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -40,6 +43,9 @@
         <action
             android:id="@+id/action_homeFragment_to_fresasFragment"
             app:destination="@id/fresasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/bananosFragment"
@@ -111,4 +117,9 @@
         android:name="com.example.apptender2.view.ui.fragments.mapasFragment"
         android:label="fragment_mapas"
         tools:layout="@layout/fragment_mapas" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.apptender2.view.ui.activities.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
 </navigation>

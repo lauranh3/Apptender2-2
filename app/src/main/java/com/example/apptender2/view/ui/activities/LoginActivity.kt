@@ -54,6 +54,7 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(Intent(this, HomeActivity::class.java))
                 } else {
                     Toast.makeText(baseContext, "Error en usuario y contraseña por favor validar", Toast.LENGTH_SHORT).show()
+
                 }
             }
     }

@@ -34,6 +34,7 @@ class misdatosFragment : Fragment() {
             startActivityForResult(intent, 456)
         }
         return view
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -46,6 +47,9 @@ class misdatosFragment : Fragment() {
         }else if(requestCode==456){
             imageView?.setImageURI(data?.data)
         }
+
+
+
     }
 
 

@@ -35,14 +35,13 @@
         android:id="@+id/buttonnavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="750dp"
+        android:layout_marginTop="700dp"
         android:background="@color/colorsecundario"
-        android:backgroundTint="@color/black"
-        app:itemIconTint="@color/black"
+            android:backgroundTint="@color/black"
+        app:itemIconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu_navigation_bar"
         tools:ignore="MissingConstrains"
         >
-
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 </FrameLayout>

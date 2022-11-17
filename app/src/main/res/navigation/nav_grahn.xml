@@ -85,7 +85,11 @@
         android:id="@+id/misdatosFragment"
         android:name="com.example.apptender2.view.ui.fragments.misdatosFragment"
         android:label="fragment_misdatos"
-        tools:layout="@layout/fragment_misdatos" />
+        tools:layout="@layout/fragment_misdatos" >
+        <action
+            android:id="@+id/action_misdatosFragment_to_home2Fragment"
+            app:destination="@id/home2Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/comentariosFragment"
         android:name="com.example.apptender2.view.ui.fragments.comentariosFragment"
@@ -95,7 +99,11 @@
         android:id="@+id/configuracionFragment"
         android:name="com.example.apptender2.configuracionFragment"
         android:label="fragment_configuracion"
-        tools:layout="@layout/fragment_configuracion" />
+        tools:layout="@layout/fragment_configuracion" >
+        <action
+            android:id="@+id/action_configuracionFragment_to_home2Fragment"
+            app:destination="@id/home2Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/listaTiendaFragment"
         android:name="com.example.apptender2.view.ui.fragments.ListaTiendaFragment"
@@ -110,6 +118,9 @@
         <action
             android:id="@+id/action_listaTiendaFragment_to_mapasFragment"
             app:destination="@id/mapasFragment" />
+        <action
+            android:id="@+id/action_listaTiendaFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
 
     </fragment>
     <fragment

@@ -52,6 +52,7 @@ class ListaTiendaFragment : Fragment() {
                 R.id.Home -> findNavController().navigate(R.id.action_listaTiendaFragment_to_home2Fragment)
                 R.id.Perf -> findNavController().navigate(R.id.action_listaTiendaFragment_to_misdatosFragment)
                 R.id.Map -> findNavController().navigate(R.id.action_listaTiendaFragment_to_mapasFragment)
+                R.id.homeFragment -> findNavController().navigate(R.id.action_listaTiendaFragment_to_homeFragment)
                 R.id.cerrar -> {
                     firebaseAuth.signOut()
                     findNavController().navigate(R.id.action_homeFragment_to_loginActivity)

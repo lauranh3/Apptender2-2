@@ -15,7 +15,11 @@
         android:title="Mapa"
         android:icon="@drawable/mapa">
     </item>
-
+     <item
+        android:id="@+id/homeFragment"
+        android:title="Tienda"
+        android:icon="@drawable/tienda">
+    </item>
     <item
         android:id="@+id/cerrar"
         android:title="Cerrar"
